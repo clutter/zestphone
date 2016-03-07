@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gemspec
 
-gem 'mysql2'
+gem 'pg'
 gem 'jquery-rails'
 gem 'twilio-ruby'
 gem 'jbuilder'
@@ -31,11 +31,11 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'pry-rails'
   gem 'ruby-graphviz'
-  gem 'thin'
+  gem 'puma'
   gem 'awesome_print'
   gem 'faker'
   gem 'rainbow'
-  gem 'jasmine-headless-webkit', git: 'https://github.com/johnbintz/jasmine-headless-webkit.git'
+  gem 'jasmine-headless-webkit'
   gem 'jasmine-rails'
 end
 
